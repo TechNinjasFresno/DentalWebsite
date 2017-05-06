@@ -68,3 +68,34 @@ footer {
 .main-content-log button:hover {
   background-color: gray;
 }
+.main-content-pages {
+  width: 80%;
+  height: 50%;
+  background-color: #364156;
+  margin: 100px auto;
+  position: auto;
+  border-radius: 1%;
+}
+.nav-sidebar {
+  width: 25%;
+  height: 100%;
+  background-color: teal;
+  border-radius: 1% 0 0 1%;
+}
+.sidebar-links {
+  list-style: none;
+  margin: 1em;
+}
+.sidebar-links li {
+  padding: 10px;
+  background-color: #364156;
+}
+.sidebar-links a {
+  margin: 1em;
+  padding: 1em;
+  text-decoration: none;
+  color: ghostwhite;
+}
+.sidebar-links a:last-child {
+  color: pink;
+}
