@@ -59,14 +59,20 @@ footer {
   font-size: 1.5em;
   color: ghostwhite;
 }
+.main-content-log input {
+  width: 70%;
+  height: 40px;
+}
 .main-content-log button {
-  width: 60%;
-  height: 50px;
+  width: 70%;
+  height: 40px;
   border-radius: 5%;
   font-size: 20px;
 }
 .main-content-log button:hover {
-  background-color: gray;
+  background-color: teal;
+  font-style: italic;
+  font-weight: bold;
 }
 .main-content-pages {
   width: 80%;
@@ -96,6 +102,11 @@ footer {
   text-decoration: none;
   color: ghostwhite;
 }
-.sidebar-links a:last-child {
-  color: pink;
+.sidebar-links a:hover {
+  color: teal;
+  font-style: italic;
+  font-weight: bold;
+}
+.sidebar-links li:hover {
+  background-color: #2254b5;
 }
