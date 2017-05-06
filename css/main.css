@@ -76,9 +76,9 @@ footer {
 }
 .main-content-pages {
   width: 80%;
-  height: 50%;
+  height: 65%;
   background-color: #364156;
-  margin: 100px auto;
+  margin: 50px auto;
   position: auto;
   border-radius: 1%;
 }
@@ -87,10 +87,11 @@ footer {
   height: 100%;
   background-color: teal;
   border-radius: 1% 0 0 1%;
+  float: left;
 }
 .sidebar-links {
   list-style: none;
-  margin: 1em;
+  margin: 0 1em 0 1em;
 }
 .sidebar-links li {
   padding: 10px;
@@ -109,4 +110,9 @@ footer {
 }
 .sidebar-links li:hover {
   background-color: #2254b5;
+}
+.API-content {
+  float: left;
+  width: 67%;
+  padding: 2%;
 }
